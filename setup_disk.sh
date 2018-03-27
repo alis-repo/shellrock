@@ -89,7 +89,7 @@ wipe_fs(){
   wipefs --all "${os_part::-1}"
 }
 
-create_partitions(){
+setup_disk(){
   wipe_fs
   append_parts_table
   create_esp_part
