@@ -15,4 +15,4 @@ min_pack(){
                                                     pulseaudio-lirc pavucontrol pulseeffects calf lsp-plugins-lv2-bin  swh-plugins rubberband zam-plugins-git
 }
 
-export min_pack
+export pacstrap_chroot
